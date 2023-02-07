@@ -1,3 +1,4 @@
+#Lo se se escribe excepciones
 """hacer todas las operaciones basica de una calculadora con dos numeros"""
 while True:
     try:
