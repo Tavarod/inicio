@@ -18,7 +18,6 @@ while pregunta == "S":
     numero = int(input("Que tababla desea ver? : \n"))
     rango = int(input("Rango de la tabla? : \n"))
     tabla(numero, rango)
-    pregunta = input("¿Desea ver otra tabla?(S/N)")
+    pregunta = input("¿Desea ver otra tabla?(S/N)").upper()
 
-if pregunta == "N":
-    print("Bye que tenga un buen dia")
+print("Bye que tenga un buen dia")
