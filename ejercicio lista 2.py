@@ -8,14 +8,18 @@ while agregar1.upper() == "S":
     while not agregar.isnumeric():
         print(f"el valor ingresado :{agregar},  no es un numero")
         agregar = input(f"que valor va agregar")
-    if len(lista) > 20:
+    if len(lista) > 15:
         print("no se pueden agregar mas numero")
         break
     else:
         lista.append(agregar)
-    agregar1 = input("va agregar elementos a la lista? (S/N)")
+    agregar1 = input("Desea agregar elementos a la lista? (S/N)")
 
 print("gracias vuelva pronto")
-print(lista)
+print(f"La lista final es {lista}")
+resultado = 0
+for elemento in lista:
+    resultado += int(elemento)
+print(f"La suma de los elementos de la lista es: {resultado}")
 
 
